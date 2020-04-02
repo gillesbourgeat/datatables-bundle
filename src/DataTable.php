@@ -96,11 +96,11 @@ class DataTable
     /** @var string */
     protected $translationDomain = 'messages';
 
+    /** @var DataTableState */
+    protected $state;
+    
     /** @var DataTableRendererInterface */
     private $renderer;
-
-    /** @var DataTableState */
-    private $state;
 
     /** @var Instantiator */
     private $instantiator;
